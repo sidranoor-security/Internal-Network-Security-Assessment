@@ -50,12 +50,7 @@ The project was implemented in a virtualized laboratory environment using:
 - **Kali Linux** — Security testing and assessment platform
 - **Nmap** — Network discovery and port scanning
 - **Wireshark** — Network traffic analysis
-- **Wazuh** — Security monitoring and log analysis
-
-### 📸 Lab Environment
-
-> Add VMware + Kali Linux screenshot here.
-
+- **Wazuh** — Security monitoring and log analysis 
 ---
 
 ## 🛠️ Tools & Technologies
@@ -82,11 +77,6 @@ Activities included:
 - Checking network configuration
 - Determining the local IP address
 - Identifying potential target hosts
-
-### 📸 Network Configuration
-
-> Add screenshot of network/IP configuration here.
-
 ---
 
 ## 2. Host Discovery
@@ -94,11 +84,6 @@ Activities included:
 Nmap was used to identify active hosts within the authorized laboratory network.
 
 The purpose of this stage was to determine which systems were reachable and available for further assessment.
-
-### 📸 Nmap Host Discovery
-
-> Add Nmap host discovery screenshot here.
-
 ---
 
 ## 3. Port Scanning
@@ -106,11 +91,6 @@ The purpose of this stage was to determine which systems were reachable and avai
 After identifying active hosts, Nmap was used to examine open ports and identify exposed network services.
 
 This helped determine the attack surface of the assessed systems.
-
-### 📸 Nmap Port Scan
-
-> Add Nmap open ports screenshot here.
-
 ---
 
 ## 4. Service Enumeration
@@ -118,11 +98,6 @@ This helped determine the attack surface of the assessed systems.
 The discovered ports were further analyzed to identify the services and versions associated with them.
 
 Service enumeration helps security analysts understand what applications are exposed and require additional security review.
-
-### 📸 Service Enumeration
-
-> Add Nmap service/version detection screenshot here.
-
 ---
 
 ## 5. Network Traffic Analysis
@@ -130,11 +105,6 @@ Service enumeration helps security analysts understand what applications are exp
 Wireshark was used to capture and analyze network traffic within the laboratory environment.
 
 The analysis focused on understanding network communication and identifying potentially suspicious or unusual traffic patterns.
-
-### 📸 Wireshark Analysis
-
-> Add Wireshark packet analysis screenshot here.
-
 ---
 
 ## 6. Vulnerability Assessment
@@ -142,26 +112,13 @@ The analysis focused on understanding network communication and identifying pote
 The identified hosts, ports, and services were reviewed to identify potential vulnerabilities, insecure configurations, and unnecessary exposure.
 
 The findings were analyzed according to their potential security impact.
-
-### 📸 Vulnerability Assessment
-
-> Add relevant vulnerability assessment screenshot here.
-
 ---
 
 ## 7. Security Monitoring with Wazuh
 
 Wazuh was used for security monitoring and log analysis.
 
-The platform provided visibility into security events, system activity, and potentially suspicious behavior within the monitored environment.
-
-### 📸 Wazuh Dashboard
-
-> Add Wazuh dashboard screenshot here.
-
-### 📸 Wazuh Security Event
-
-> Add relevant Wazuh alert/event screenshot here.
+The platform provided visibility into security events, system activity, and potentially suspicious behavior within the monitored environment. 
 
 ---
 
